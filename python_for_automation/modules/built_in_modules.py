@@ -6,10 +6,12 @@ import platform as os
 from my_module import this_dict
 # external module
 import requests
+from my_module import name
 
 print(math.sqrt(16))
 print(sys.version)
 print(random.randrange(1, 25))
+
 
 '''
 The module can contain functions, as already described, but also variables of all types 
@@ -27,5 +29,7 @@ print(os.system())
 print(dir(os))  # it will list all the available functions and variables
 print(dir(requests))
 
-name = this_dict["name"]
+# name = this_dict["name"]
+# print(name)
+
 print(name)

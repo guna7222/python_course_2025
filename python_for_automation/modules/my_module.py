@@ -9,3 +9,6 @@ this_dict = {
     "name" : "Mano",
     "age" : 12
 }
+
+
+name = "Sekhar"
